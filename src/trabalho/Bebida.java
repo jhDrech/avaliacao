@@ -3,7 +3,6 @@ package trabalho;
 public class Bebida {
     private String nome;
     private float preco;
-    private String descricao;
    
     public Bebida(String nome, float preco) {
         this.nome = nome;
@@ -22,10 +21,4 @@ public class Bebida {
     public void setPreco(float preco) {
         this.preco = preco;
     }
-    public String getDescricao() {
-        return descricao;
-    }
-    public void setDescricao(String descricao) {
-        this.descricao = descricao;
-    }    
 }

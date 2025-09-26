@@ -1,6 +1,6 @@
 package trabalho;
 
-public class Garcom extends Funcionario{
+public class Garcom{
     private float percentualGarcom;
 
     public Garcom() {

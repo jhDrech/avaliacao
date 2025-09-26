@@ -9,16 +9,20 @@ public class Pizza {
     public Pizza(String nome, float preco) {
         this.nome = nome;
         this. preco = preco;
+        this.ingredientes = new ArrayList<>();
     }
 
-    public void adicionarIngredientes(Ingrediente ingrediente){
-        this.ingredientes.add(ingrediente);
+    public void adicionarIngredientes(Ingrediente... ingredientes){
+        for (Ingrediente ingrediente : ingredientes) {
+            this.ingredientes.add(ingrediente);
+        } 
     }
 
-    public void mostrarIngredientes(ArrayList ingredientes){
+    public void mostrarIngredientes(){
         for (Ingrediente ingrediente : this.ingredientes) {
-            System.out.printf("%s, \n", ingrediente.getNome());
+            System.out.printf("- %s ", ingrediente.getNome());
         }
+        System.out.println();
     }
 
     public String getNome() {

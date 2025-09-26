@@ -1,18 +1,5 @@
-## Getting Started
-
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
-
-## Folder Structure
-
-The workspace contains two folders by default, where:
-
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+1. O tema escolhido foi para o sistema foi uma Pizzaria.
+2. Como o projeto é significativamente simples não houve nenhuma grande dificuldade, mas as partes mais difíceis foram escolher o tema e construir a classe Main, com o CRUD.
+3. Para executar o programa, basta inciá-lo em um terminal. Em seguida você verá as 2 opções disponíveis, a de fazer um pedido na pizzaria, e a de ver o cardápio, visando o modelo do programa como um atendimento presencial ao invés de um atendimento por encomenda. 
+    O usuário receberá as devidas instruções para realizar o pedido
+durante a execução do programa, mas, mesmo assim, para fazer o pedido basta informar a quantidade do produto que você deseja, especificar o produto que deseja (pizzas e bebidas), e então o programa calculará a conta do cliente, após isso, o cliente tem a opção de retornar e fazer um novo pedido ou de encerrar a sua experiência.
